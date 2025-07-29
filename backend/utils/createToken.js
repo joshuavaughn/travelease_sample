@@ -12,3 +12,14 @@ async function createToken(user, pass) {
 }
 
 export default createToken;
+
+/* 
+
+token process
+
+make token
+send token
+save token (on state n in http header)
+verify token (from frontend)
+
+*/
